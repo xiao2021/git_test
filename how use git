@@ -1,0 +1,30 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:xiao2021/image_processs.git
+git push -u origin main
+
+git pull
+
+git branch
+
+git branch -d temp
+
+git remote rm origin
+
+git branch -m master main
+
+main master俩分支
+
+git add .	#添加全部
+
+"git commit -m 'first commit'" 是一个 Git 命令，用于在 Git 仓库中创建一个新的提交（commit），
+并将提交消息（commit message）设置为 "first commit"。通常情况下，这个命令是在你修改了文件并使
+用 "git add" 命令将它们添加到暂存区后使用的。
+
+当你使用 "git commit" 命令，并带上 "-m" 选项和一个被引号括起来的消息时，
+Git 将会创建一个新的提交，包括你所暂存的更改以及你提供的提交消息。这个提交
+消息应该是一个简短而描述性的总结，以便你和其他人理解该提交所作的更改。
+
+提供信息丰富的提交消息非常重要，因为它们可以帮助你和其他人理解提交所作的更改。
